@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960FF70B2DFF71500002A611 /* ParpaingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FF70A2DFF71500002A611 /* ParpaingView.swift */; };
+		960FF70C2DFF71500002A611 /* ParpaingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FF70A2DFF71500002A611 /* ParpaingView.swift */; };
+		960FF70E2E0163C60002A611 /* ModuleCloissement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FF70D2E0163C60002A611 /* ModuleCloissement.swift */; };
+		960FF70F2E0163C60002A611 /* ModuleCloissement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FF70D2E0163C60002A611 /* ModuleCloissement.swift */; };
+		960FF7112E016BCF0002A611 /* ModuleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FF7102E016BCF0002A611 /* ModuleCard.swift */; };
+		960FF7122E016BCF0002A611 /* ModuleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FF7102E016BCF0002A611 /* ModuleCard.swift */; };
+		962A92B52E05EAF8004B6B9E /* ModuleTerrasseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A92B42E05EAF8004B6B9E /* ModuleTerrasseView.swift */; };
+		962A92B62E05EAF8004B6B9E /* ModuleTerrasseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A92B42E05EAF8004B6B9E /* ModuleTerrasseView.swift */; };
+		962A92B82E089ABF004B6B9E /* CalculAlleeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A92B72E089ABE004B6B9E /* CalculAlleeView.swift */; };
+		962A92B92E089ABF004B6B9E /* CalculAlleeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A92B72E089ABE004B6B9E /* CalculAlleeView.swift */; };
+		962A92BB2E089FC3004B6B9E /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A92BA2E089FC3004B6B9E /* Module.swift */; };
+		962A92BC2E089FC3004B6B9E /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A92BA2E089FC3004B6B9E /* Module.swift */; };
+		96ACA4DE2DE3B08700E8C66C /* Placo Doublage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4DD2DE3B08600E8C66C /* Placo Doublage.swift */; };
+		96ACA4DF2DE3B08700E8C66C /* Placo Doublage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4DD2DE3B08600E8C66C /* Placo Doublage.swift */; };
+		96ACA4E12DE4FD0900E8C66C /* Chape-Mortier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4E02DE4FD0900E8C66C /* Chape-Mortier.swift */; };
+		96ACA4E22DE4FD0900E8C66C /* Chape-Mortier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4E02DE4FD0900E8C66C /* Chape-Mortier.swift */; };
+		96ACA4E42DE4FF9400E8C66C /* Ragreage .swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4E32DE4FF9400E8C66C /* Ragreage .swift */; };
+		96ACA4E52DE4FF9400E8C66C /* Ragreage .swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4E32DE4FF9400E8C66C /* Ragreage .swift */; };
+		96ACA4E72DE5055C00E8C66C /* Pilier Béton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4E62DE5055C00E8C66C /* Pilier Béton.swift */; };
+		96ACA4E82DE5055C00E8C66C /* Pilier Béton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4E62DE5055C00E8C66C /* Pilier Béton.swift */; };
+		96ACA4EA2DE5094400E8C66C /* AmenagementInterieurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4E92DE5094400E8C66C /* AmenagementInterieurView.swift */; };
+		96ACA4EB2DE5094400E8C66C /* AmenagementInterieurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4E92DE5094400E8C66C /* AmenagementInterieurView.swift */; };
+		96ACA4ED2DE5095800E8C66C /* AmenagementExterieurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4EC2DE5095800E8C66C /* AmenagementExterieurView.swift */; };
+		96ACA4EE2DE5095800E8C66C /* AmenagementExterieurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4EC2DE5095800E8C66C /* AmenagementExterieurView.swift */; };
+		96ACA4F02DE50E6100E8C66C /* Charpente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4EF2DE50E6100E8C66C /* Charpente.swift */; };
+		96ACA4F12DE50E6100E8C66C /* Charpente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACA4EF2DE50E6100E8C66C /* Charpente.swift */; };
+		96CC18362DE2FAE200048D77 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC18352DE2FAE200048D77 /* Tests_iOS.swift */; };
+		96CC18412DE2FAE200048D77 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC18402DE2FAE200048D77 /* Tests_macOS.swift */; };
+		96CC18432DE2FAE200048D77 /* Le_Batiment_Dans_la_PocheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC181A2DE2FAE100048D77 /* Le_Batiment_Dans_la_PocheApp.swift */; };
+		96CC18442DE2FAE200048D77 /* Le_Batiment_Dans_la_PocheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC181A2DE2FAE100048D77 /* Le_Batiment_Dans_la_PocheApp.swift */; };
+		96CC18452DE2FAE200048D77 /* AccueilModulesView() .swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC181B2DE2FAE100048D77 /* AccueilModulesView() .swift */; };
+		96CC18462DE2FAE200048D77 /* AccueilModulesView() .swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC181B2DE2FAE100048D77 /* AccueilModulesView() .swift */; };
+		96CC18472DE2FAE200048D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CC181C2DE2FAE200048D77 /* Assets.xcassets */; };
+		96CC18482DE2FAE200048D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CC181C2DE2FAE200048D77 /* Assets.xcassets */; };
+		96CC18582DE2FB7100048D77 /* CalculBetonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC18572DE2FB7100048D77 /* CalculBetonView.swift */; };
+		96CC18592DE2FB7100048D77 /* CalculBetonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC18572DE2FB7100048D77 /* CalculBetonView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96CC18322DE2FAE200048D77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96CC18152DE2FAE100048D77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96CC18202DE2FAE200048D77;
+			remoteInfo = "Le Batiment Dans la Poche (iOS)";
+		};
+		96CC183D2DE2FAE200048D77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96CC18152DE2FAE100048D77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96CC18282DE2FAE200048D77;
+			remoteInfo = "Le Batiment Dans la Poche (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		960FF70A2DFF71500002A611 /* ParpaingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParpaingView.swift; sourceTree = "<group>"; };
+		960FF70D2E0163C60002A611 /* ModuleCloissement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleCloissement.swift; sourceTree = "<group>"; };
+		960FF7102E016BCF0002A611 /* ModuleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleCard.swift; sourceTree = "<group>"; };
+		962A92B42E05EAF8004B6B9E /* ModuleTerrasseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTerrasseView.swift; sourceTree = "<group>"; };
+		962A92B72E089ABE004B6B9E /* CalculAlleeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculAlleeView.swift; sourceTree = "<group>"; };
+		962A92BA2E089FC3004B6B9E /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		96ACA4DD2DE3B08600E8C66C /* Placo Doublage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Placo Doublage.swift"; sourceTree = "<group>"; };
+		96ACA4E02DE4FD0900E8C66C /* Chape-Mortier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chape-Mortier.swift"; sourceTree = "<group>"; };
+		96ACA4E32DE4FF9400E8C66C /* Ragreage .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ragreage .swift"; sourceTree = "<group>"; };
+		96ACA4E62DE5055C00E8C66C /* Pilier Béton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pilier Béton.swift"; sourceTree = "<group>"; };
+		96ACA4E92DE5094400E8C66C /* AmenagementInterieurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmenagementInterieurView.swift; sourceTree = "<group>"; };
+		96ACA4EC2DE5095800E8C66C /* AmenagementExterieurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmenagementExterieurView.swift; sourceTree = "<group>"; };
+		96ACA4EF2DE50E6100E8C66C /* Charpente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charpente.swift; sourceTree = "<group>"; };
+		96CC181A2DE2FAE100048D77 /* Le_Batiment_Dans_la_PocheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Le_Batiment_Dans_la_PocheApp.swift; sourceTree = "<group>"; };
+		96CC181B2DE2FAE100048D77 /* AccueilModulesView() .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccueilModulesView() .swift"; sourceTree = "<group>"; };
+		96CC181C2DE2FAE200048D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96CC18212DE2FAE200048D77 /* Le Batiment Dans la Poche.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Le Batiment Dans la Poche.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CC18242DE2FAE200048D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CC18292DE2FAE200048D77 /* Le Batiment Dans la Poche.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Le Batiment Dans la Poche.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CC182B2DE2FAE200048D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CC182C2DE2FAE200048D77 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		96CC18312DE2FAE200048D77 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CC18352DE2FAE200048D77 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		96CC18372DE2FAE200048D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CC183C2DE2FAE200048D77 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CC18402DE2FAE200048D77 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		96CC18422DE2FAE200048D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CC18572DE2FB7100048D77 /* CalculBetonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculBetonView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96CC181E2DE2FAE200048D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CC18262DE2FAE200048D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CC182E2DE2FAE200048D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CC18392DE2FAE200048D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96CC18142DE2FAE100048D77 = {
+			isa = PBXGroup;
+			children = (
+				96CC18192DE2FAE100048D77 /* Shared */,
+				96CC18232DE2FAE200048D77 /* iOS */,
+				96CC182A2DE2FAE200048D77 /* macOS */,
+				96CC18342DE2FAE200048D77 /* Tests iOS */,
+				96CC183F2DE2FAE200048D77 /* Tests macOS */,
+				96CC18222DE2FAE200048D77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96CC18192DE2FAE100048D77 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				96CC181A2DE2FAE100048D77 /* Le_Batiment_Dans_la_PocheApp.swift */,
+				96CC181B2DE2FAE100048D77 /* AccueilModulesView() .swift */,
+				962A92BA2E089FC3004B6B9E /* Module.swift */,
+				96ACA4E92DE5094400E8C66C /* AmenagementInterieurView.swift */,
+				96ACA4EC2DE5095800E8C66C /* AmenagementExterieurView.swift */,
+				96ACA4EF2DE50E6100E8C66C /* Charpente.swift */,
+				96ACA4E62DE5055C00E8C66C /* Pilier Béton.swift */,
+				962A92B42E05EAF8004B6B9E /* ModuleTerrasseView.swift */,
+				962A92B72E089ABE004B6B9E /* CalculAlleeView.swift */,
+				96ACA4E32DE4FF9400E8C66C /* Ragreage .swift */,
+				96CC18572DE2FB7100048D77 /* CalculBetonView.swift */,
+				96ACA4E02DE4FD0900E8C66C /* Chape-Mortier.swift */,
+				96ACA4DD2DE3B08600E8C66C /* Placo Doublage.swift */,
+				960FF70A2DFF71500002A611 /* ParpaingView.swift */,
+				960FF70D2E0163C60002A611 /* ModuleCloissement.swift */,
+				960FF7102E016BCF0002A611 /* ModuleCard.swift */,
+				96CC181C2DE2FAE200048D77 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		96CC18222DE2FAE200048D77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96CC18212DE2FAE200048D77 /* Le Batiment Dans la Poche.app */,
+				96CC18292DE2FAE200048D77 /* Le Batiment Dans la Poche.app */,
+				96CC18312DE2FAE200048D77 /* Tests iOS.xctest */,
+				96CC183C2DE2FAE200048D77 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96CC18232DE2FAE200048D77 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				96CC18242DE2FAE200048D77 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		96CC182A2DE2FAE200048D77 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				96CC182B2DE2FAE200048D77 /* Info.plist */,
+				96CC182C2DE2FAE200048D77 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		96CC18342DE2FAE200048D77 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				96CC18352DE2FAE200048D77 /* Tests_iOS.swift */,
+				96CC18372DE2FAE200048D77 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		96CC183F2DE2FAE200048D77 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				96CC18402DE2FAE200048D77 /* Tests_macOS.swift */,
+				96CC18422DE2FAE200048D77 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96CC18202DE2FAE200048D77 /* Le Batiment Dans la Poche (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CC184B2DE2FAE200048D77 /* Build configuration list for PBXNativeTarget "Le Batiment Dans la Poche (iOS)" */;
+			buildPhases = (
+				96CC181D2DE2FAE200048D77 /* Sources */,
+				96CC181E2DE2FAE200048D77 /* Frameworks */,
+				96CC181F2DE2FAE200048D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Le Batiment Dans la Poche (iOS)";
+			productName = "Le Batiment Dans la Poche (iOS)";
+			productReference = 96CC18212DE2FAE200048D77 /* Le Batiment Dans la Poche.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96CC18282DE2FAE200048D77 /* Le Batiment Dans la Poche (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CC184E2DE2FAE200048D77 /* Build configuration list for PBXNativeTarget "Le Batiment Dans la Poche (macOS)" */;
+			buildPhases = (
+				96CC18252DE2FAE200048D77 /* Sources */,
+				96CC18262DE2FAE200048D77 /* Frameworks */,
+				96CC18272DE2FAE200048D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Le Batiment Dans la Poche (macOS)";
+			productName = "Le Batiment Dans la Poche (macOS)";
+			productReference = 96CC18292DE2FAE200048D77 /* Le Batiment Dans la Poche.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96CC18302DE2FAE200048D77 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CC18512DE2FAE200048D77 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				96CC182D2DE2FAE200048D77 /* Sources */,
+				96CC182E2DE2FAE200048D77 /* Frameworks */,
+				96CC182F2DE2FAE200048D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96CC18332DE2FAE200048D77 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 96CC18312DE2FAE200048D77 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		96CC183B2DE2FAE200048D77 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CC18542DE2FAE200048D77 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				96CC18382DE2FAE200048D77 /* Sources */,
+				96CC18392DE2FAE200048D77 /* Frameworks */,
+				96CC183A2DE2FAE200048D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96CC183E2DE2FAE200048D77 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 96CC183C2DE2FAE200048D77 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96CC18152DE2FAE100048D77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					96CC18202DE2FAE200048D77 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					96CC18282DE2FAE200048D77 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					96CC18302DE2FAE200048D77 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 96CC18202DE2FAE200048D77;
+					};
+					96CC183B2DE2FAE200048D77 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 96CC18282DE2FAE200048D77;
+					};
+				};
+			};
+			buildConfigurationList = 96CC18182DE2FAE100048D77 /* Build configuration list for PBXProject "Le Batiment Dans la Poche" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96CC18142DE2FAE100048D77;
+			productRefGroup = 96CC18222DE2FAE200048D77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96CC18202DE2FAE200048D77 /* Le Batiment Dans la Poche (iOS) */,
+				96CC18282DE2FAE200048D77 /* Le Batiment Dans la Poche (macOS) */,
+				96CC18302DE2FAE200048D77 /* Tests iOS */,
+				96CC183B2DE2FAE200048D77 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96CC181F2DE2FAE200048D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CC18472DE2FAE200048D77 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CC18272DE2FAE200048D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CC18482DE2FAE200048D77 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CC182F2DE2FAE200048D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CC183A2DE2FAE200048D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96CC181D2DE2FAE200048D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ACA4F02DE50E6100E8C66C /* Charpente.swift in Sources */,
+				962A92B52E05EAF8004B6B9E /* ModuleTerrasseView.swift in Sources */,
+				96ACA4E12DE4FD0900E8C66C /* Chape-Mortier.swift in Sources */,
+				96CC18452DE2FAE200048D77 /* AccueilModulesView() .swift in Sources */,
+				96ACA4E42DE4FF9400E8C66C /* Ragreage .swift in Sources */,
+				960FF70B2DFF71500002A611 /* ParpaingView.swift in Sources */,
+				96ACA4E72DE5055C00E8C66C /* Pilier Béton.swift in Sources */,
+				96ACA4ED2DE5095800E8C66C /* AmenagementExterieurView.swift in Sources */,
+				962A92B82E089ABF004B6B9E /* CalculAlleeView.swift in Sources */,
+				960FF7112E016BCF0002A611 /* ModuleCard.swift in Sources */,
+				96ACA4DE2DE3B08700E8C66C /* Placo Doublage.swift in Sources */,
+				96ACA4EA2DE5094400E8C66C /* AmenagementInterieurView.swift in Sources */,
+				96CC18582DE2FB7100048D77 /* CalculBetonView.swift in Sources */,
+				962A92BB2E089FC3004B6B9E /* Module.swift in Sources */,
+				960FF70E2E0163C60002A611 /* ModuleCloissement.swift in Sources */,
+				96CC18432DE2FAE200048D77 /* Le_Batiment_Dans_la_PocheApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CC18252DE2FAE200048D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ACA4F12DE50E6100E8C66C /* Charpente.swift in Sources */,
+				962A92B62E05EAF8004B6B9E /* ModuleTerrasseView.swift in Sources */,
+				96ACA4E22DE4FD0900E8C66C /* Chape-Mortier.swift in Sources */,
+				96CC18462DE2FAE200048D77 /* AccueilModulesView() .swift in Sources */,
+				96ACA4E52DE4FF9400E8C66C /* Ragreage .swift in Sources */,
+				960FF70C2DFF71500002A611 /* ParpaingView.swift in Sources */,
+				96ACA4E82DE5055C00E8C66C /* Pilier Béton.swift in Sources */,
+				96ACA4EE2DE5095800E8C66C /* AmenagementExterieurView.swift in Sources */,
+				962A92B92E089ABF004B6B9E /* CalculAlleeView.swift in Sources */,
+				960FF7122E016BCF0002A611 /* ModuleCard.swift in Sources */,
+				96ACA4DF2DE3B08700E8C66C /* Placo Doublage.swift in Sources */,
+				96ACA4EB2DE5094400E8C66C /* AmenagementInterieurView.swift in Sources */,
+				96CC18592DE2FB7100048D77 /* CalculBetonView.swift in Sources */,
+				962A92BC2E089FC3004B6B9E /* Module.swift in Sources */,
+				960FF70F2E0163C60002A611 /* ModuleCloissement.swift in Sources */,
+				96CC18442DE2FAE200048D77 /* Le_Batiment_Dans_la_PocheApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CC182D2DE2FAE200048D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CC18362DE2FAE200048D77 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CC18382DE2FAE200048D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CC18412DE2FAE200048D77 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96CC18332DE2FAE200048D77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96CC18202DE2FAE200048D77 /* Le Batiment Dans la Poche (iOS) */;
+			targetProxy = 96CC18322DE2FAE200048D77 /* PBXContainerItemProxy */;
+		};
+		96CC183E2DE2FAE200048D77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96CC18282DE2FAE200048D77 /* Le Batiment Dans la Poche (macOS) */;
+			targetProxy = 96CC183D2DE2FAE200048D77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		96CC18492DE2FAE200048D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96CC184A2DE2FAE200048D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		96CC184C2DE2FAE200048D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QELK775PD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EasyBat;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cerqueira.Le-Batiment-Dans-la-Poche";
+				PRODUCT_NAME = "Le Batiment Dans la Poche";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96CC184D2DE2FAE200048D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3QELK775PD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EasyBat;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cerqueira.Le-Batiment-Dans-la-Poche";
+				PRODUCT_NAME = "Le Batiment Dans la Poche";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96CC184F2DE2FAE200048D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EasyBat;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cerqueira.Le-Batiment-Dans-la-Poche";
+				PRODUCT_NAME = "Le Batiment Dans la Poche";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		96CC18502DE2FAE200048D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EasyBat;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cerqueira.Le-Batiment-Dans-la-Poche";
+				PRODUCT_NAME = "Le Batiment Dans la Poche";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		96CC18522DE2FAE200048D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cerqueira.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Le Batiment Dans la Poche (iOS)";
+			};
+			name = Debug;
+		};
+		96CC18532DE2FAE200048D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cerqueira.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Le Batiment Dans la Poche (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96CC18552DE2FAE200048D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cerqueira.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Le Batiment Dans la Poche (macOS)";
+			};
+			name = Debug;
+		};
+		96CC18562DE2FAE200048D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cerqueira.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Le Batiment Dans la Poche (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96CC18182DE2FAE100048D77 /* Build configuration list for PBXProject "Le Batiment Dans la Poche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CC18492DE2FAE200048D77 /* Debug */,
+				96CC184A2DE2FAE200048D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CC184B2DE2FAE200048D77 /* Build configuration list for PBXNativeTarget "Le Batiment Dans la Poche (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CC184C2DE2FAE200048D77 /* Debug */,
+				96CC184D2DE2FAE200048D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CC184E2DE2FAE200048D77 /* Build configuration list for PBXNativeTarget "Le Batiment Dans la Poche (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CC184F2DE2FAE200048D77 /* Debug */,
+				96CC18502DE2FAE200048D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CC18512DE2FAE200048D77 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CC18522DE2FAE200048D77 /* Debug */,
+				96CC18532DE2FAE200048D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CC18542DE2FAE200048D77 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CC18552DE2FAE200048D77 /* Debug */,
+				96CC18562DE2FAE200048D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96CC18152DE2FAE100048D77 /* Project object */;
+}
