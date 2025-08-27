@@ -59,16 +59,13 @@ struct CalculPlacoDoublageView: View {
                 .keyboardType(.decimalPad)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding(.horizontal)
-
-                Button("LANCER LE CALCUL") {
+                
+                Button("CALCULER") {
                     calculer()
                 }
-                .frame(maxWidth: .infinity)
-                .padding()
-                .background(Color.gray.opacity(0.2))
-                .foregroundColor(.white)
-                .cornerRadius(8)
-                .padding(.horizontal)
+                  .buttonStyle(.borderedProminent)
+                  .tint(.blue)
+                  .controlSize(.large)
 
                 if let surface = surfaceTotale,
                    let plaques = plaques,
@@ -129,7 +126,6 @@ struct CalculPlacoDoublageView: View {
             }
             .padding()
         }
-        .preferredColorScheme(.dark)
     }
 
     func reset() {

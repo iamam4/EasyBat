@@ -2,11 +2,10 @@ import SwiftUI
 
 struct AmenagementExterieurView: View {
     var body: some View {
-        NavigationView {
             List {
                 Section(header: Text("Modules Extérieurs")
-                    .font(.headline)
-                    .foregroundColor(.primary)) {
+                    .font(.caption)
+                    .foregroundColor(.secondary)) {
                     
                     NavigationLink(destination: CalculBetonView()) {
                         Label("Dalle Béton", systemImage: "cube.box.fill")
@@ -43,14 +42,7 @@ struct AmenagementExterieurView: View {
             }
             .listStyle(InsetGroupedListStyle())
             .navigationTitle("Aménagement Extérieur")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
-}
-
-struct AmenagementExterieurView_Previews: PreviewProvider {
-    static var previews: some View {
-        AmenagementExterieurView()
-            .preferredColorScheme(.dark)
-    }
-}
 

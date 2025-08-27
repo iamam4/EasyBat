@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		960FF70B2DFF71500002A611 /* ParpaingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FF70A2DFF71500002A611 /* ParpaingView.swift */; };
 		960FF70C2DFF71500002A611 /* ParpaingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FF70A2DFF71500002A611 /* ParpaingView.swift */; };
-		960FF70E2E0163C60002A611 /* ModuleCloissement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FF70D2E0163C60002A611 /* ModuleCloissement.swift */; };
-		960FF70F2E0163C60002A611 /* ModuleCloissement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FF70D2E0163C60002A611 /* ModuleCloissement.swift */; };
 		960FF7112E016BCF0002A611 /* ModuleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FF7102E016BCF0002A611 /* ModuleCard.swift */; };
 		960FF7122E016BCF0002A611 /* ModuleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960FF7102E016BCF0002A611 /* ModuleCard.swift */; };
 		962A92B52E05EAF8004B6B9E /* ModuleTerrasseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A92B42E05EAF8004B6B9E /* ModuleTerrasseView.swift */; };
@@ -37,12 +35,14 @@
 		96CC18412DE2FAE200048D77 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC18402DE2FAE200048D77 /* Tests_macOS.swift */; };
 		96CC18432DE2FAE200048D77 /* Le_Batiment_Dans_la_PocheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC181A2DE2FAE100048D77 /* Le_Batiment_Dans_la_PocheApp.swift */; };
 		96CC18442DE2FAE200048D77 /* Le_Batiment_Dans_la_PocheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC181A2DE2FAE100048D77 /* Le_Batiment_Dans_la_PocheApp.swift */; };
-		96CC18452DE2FAE200048D77 /* AccueilModulesView() .swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC181B2DE2FAE100048D77 /* AccueilModulesView() .swift */; };
-		96CC18462DE2FAE200048D77 /* AccueilModulesView() .swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC181B2DE2FAE100048D77 /* AccueilModulesView() .swift */; };
 		96CC18472DE2FAE200048D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CC181C2DE2FAE200048D77 /* Assets.xcassets */; };
 		96CC18482DE2FAE200048D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CC181C2DE2FAE200048D77 /* Assets.xcassets */; };
 		96CC18582DE2FB7100048D77 /* CalculBetonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC18572DE2FB7100048D77 /* CalculBetonView.swift */; };
 		96CC18592DE2FB7100048D77 /* CalculBetonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CC18572DE2FB7100048D77 /* CalculBetonView.swift */; };
+		FAE85C152E5F91CD00C56F1C /* AccueilModulesView().swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE85C142E5F91C400C56F1C /* AccueilModulesView().swift */; };
+		FAE85C162E5F91CD00C56F1C /* AccueilModulesView().swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE85C142E5F91C400C56F1C /* AccueilModulesView().swift */; };
+		FAE85C192E5FA4D600C56F1C /* Cloissement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE85C182E5FA4C600C56F1C /* Cloissement.swift */; };
+		FAE85C1A2E5FA4D600C56F1C /* Cloissement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE85C182E5FA4C600C56F1C /* Cloissement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +64,6 @@
 
 /* Begin PBXFileReference section */
 		960FF70A2DFF71500002A611 /* ParpaingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParpaingView.swift; sourceTree = "<group>"; };
-		960FF70D2E0163C60002A611 /* ModuleCloissement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleCloissement.swift; sourceTree = "<group>"; };
 		960FF7102E016BCF0002A611 /* ModuleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleCard.swift; sourceTree = "<group>"; };
 		962A92B42E05EAF8004B6B9E /* ModuleTerrasseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTerrasseView.swift; sourceTree = "<group>"; };
 		962A92B72E089ABE004B6B9E /* CalculAlleeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculAlleeView.swift; sourceTree = "<group>"; };
@@ -77,7 +76,6 @@
 		96ACA4EC2DE5095800E8C66C /* AmenagementExterieurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmenagementExterieurView.swift; sourceTree = "<group>"; };
 		96ACA4EF2DE50E6100E8C66C /* Charpente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charpente.swift; sourceTree = "<group>"; };
 		96CC181A2DE2FAE100048D77 /* Le_Batiment_Dans_la_PocheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Le_Batiment_Dans_la_PocheApp.swift; sourceTree = "<group>"; };
-		96CC181B2DE2FAE100048D77 /* AccueilModulesView() .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccueilModulesView() .swift"; sourceTree = "<group>"; };
 		96CC181C2DE2FAE200048D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96CC18212DE2FAE200048D77 /* Le Batiment Dans la Poche.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Le Batiment Dans la Poche.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CC18242DE2FAE200048D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +89,8 @@
 		96CC18402DE2FAE200048D77 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		96CC18422DE2FAE200048D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96CC18572DE2FB7100048D77 /* CalculBetonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculBetonView.swift; sourceTree = "<group>"; };
+		FAE85C142E5F91C400C56F1C /* AccueilModulesView().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccueilModulesView().swift"; sourceTree = "<group>"; };
+		FAE85C182E5FA4C600C56F1C /* Cloissement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloissement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				96CC181A2DE2FAE100048D77 /* Le_Batiment_Dans_la_PocheApp.swift */,
-				96CC181B2DE2FAE100048D77 /* AccueilModulesView() .swift */,
 				962A92BA2E089FC3004B6B9E /* Module.swift */,
+				FAE85C142E5F91C400C56F1C /* AccueilModulesView().swift */,
 				96ACA4E92DE5094400E8C66C /* AmenagementInterieurView.swift */,
 				96ACA4EC2DE5095800E8C66C /* AmenagementExterieurView.swift */,
 				96ACA4EF2DE50E6100E8C66C /* Charpente.swift */,
@@ -152,9 +152,9 @@
 				96ACA4E32DE4FF9400E8C66C /* Ragreage .swift */,
 				96CC18572DE2FB7100048D77 /* CalculBetonView.swift */,
 				96ACA4E02DE4FD0900E8C66C /* Chape-Mortier.swift */,
+				FAE85C182E5FA4C600C56F1C /* Cloissement.swift */,
 				96ACA4DD2DE3B08600E8C66C /* Placo Doublage.swift */,
 				960FF70A2DFF71500002A611 /* ParpaingView.swift */,
-				960FF70D2E0163C60002A611 /* ModuleCloissement.swift */,
 				960FF7102E016BCF0002A611 /* ModuleCard.swift */,
 				96CC181C2DE2FAE200048D77 /* Assets.xcassets */,
 			);
@@ -365,10 +365,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE85C162E5F91CD00C56F1C /* AccueilModulesView().swift in Sources */,
 				96ACA4F02DE50E6100E8C66C /* Charpente.swift in Sources */,
 				962A92B52E05EAF8004B6B9E /* ModuleTerrasseView.swift in Sources */,
 				96ACA4E12DE4FD0900E8C66C /* Chape-Mortier.swift in Sources */,
-				96CC18452DE2FAE200048D77 /* AccueilModulesView() .swift in Sources */,
 				96ACA4E42DE4FF9400E8C66C /* Ragreage .swift in Sources */,
 				960FF70B2DFF71500002A611 /* ParpaingView.swift in Sources */,
 				96ACA4E72DE5055C00E8C66C /* Pilier Béton.swift in Sources */,
@@ -378,8 +378,8 @@
 				96ACA4DE2DE3B08700E8C66C /* Placo Doublage.swift in Sources */,
 				96ACA4EA2DE5094400E8C66C /* AmenagementInterieurView.swift in Sources */,
 				96CC18582DE2FB7100048D77 /* CalculBetonView.swift in Sources */,
+				FAE85C192E5FA4D600C56F1C /* Cloissement.swift in Sources */,
 				962A92BB2E089FC3004B6B9E /* Module.swift in Sources */,
-				960FF70E2E0163C60002A611 /* ModuleCloissement.swift in Sources */,
 				96CC18432DE2FAE200048D77 /* Le_Batiment_Dans_la_PocheApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,10 +388,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE85C152E5F91CD00C56F1C /* AccueilModulesView().swift in Sources */,
 				96ACA4F12DE50E6100E8C66C /* Charpente.swift in Sources */,
 				962A92B62E05EAF8004B6B9E /* ModuleTerrasseView.swift in Sources */,
 				96ACA4E22DE4FD0900E8C66C /* Chape-Mortier.swift in Sources */,
-				96CC18462DE2FAE200048D77 /* AccueilModulesView() .swift in Sources */,
 				96ACA4E52DE4FF9400E8C66C /* Ragreage .swift in Sources */,
 				960FF70C2DFF71500002A611 /* ParpaingView.swift in Sources */,
 				96ACA4E82DE5055C00E8C66C /* Pilier Béton.swift in Sources */,
@@ -401,8 +401,8 @@
 				96ACA4DF2DE3B08700E8C66C /* Placo Doublage.swift in Sources */,
 				96ACA4EB2DE5094400E8C66C /* AmenagementInterieurView.swift in Sources */,
 				96CC18592DE2FB7100048D77 /* CalculBetonView.swift in Sources */,
+				FAE85C1A2E5FA4D600C56F1C /* Cloissement.swift in Sources */,
 				962A92BC2E089FC3004B6B9E /* Module.swift in Sources */,
-				960FF70F2E0163C60002A611 /* ModuleCloissement.swift in Sources */,
 				96CC18442DE2FAE200048D77 /* Le_Batiment_Dans_la_PocheApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

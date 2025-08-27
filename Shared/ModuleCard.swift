@@ -16,23 +16,29 @@ struct ModuleCard: View {
     
     var body: some View {
         NavigationLink(destination: destination) {
-            VStack(spacing: 12) {
+            VStack(spacing: 20) {
                 Image(systemName: icon)
                     .font(.system(size: 32))
                     .foregroundColor(color)
                     .frame(width: 60, height: 60)
-                    .background(color.opacity(0.2))
+                    .background(color.opacity(0.1))
                     .clipShape(Circle())
                 
                 Text(title)
+                    .font(.subheadline)
                     .foregroundColor(.primary)
                     .fontWeight(.semibold)
                     .multilineTextAlignment(.center)
+                    .lineLimit(2)
+                    .fixedSize(horizontal: false, vertical: true)
+
             }
-            .padding()
-            .frame(maxWidth: .infinity, minHeight: 160)
-            .background(Color("CardBackground"))
+            .frame(width: 90, height: 120)
+            .padding(EdgeInsets(top: 20, leading: 45, bottom: 20, trailing: 45))
+            .background(Color.gray.opacity(0.05))
             .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+            
+            
         }
     }
 }
